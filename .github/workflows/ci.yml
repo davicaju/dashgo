@@ -10,4 +10,4 @@ jobs:
           fetch-depth: 0
 
       - name: Install dependencies
-        uses: yarn install
+        run: yarn install
